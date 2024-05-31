@@ -1,0 +1,53 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.card {
+    border: 1px solid purple;
+    border-radius: 5px;
+    padding: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+}
+
+.player-card {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.player-card h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.player-card p {
+    margin-bottom: 8px;
+}
+
+.ratings {
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    justify-content: space-around;
+    border-radius: 50%; 
+    background-color: transparent; 
+    margin-right: 5px; 
+    border: 1px solid #fff; 
+}
+
+.circle.shaded {
+    background-color: rgb(68, 172, 99);
+}
